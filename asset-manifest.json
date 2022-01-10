@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crowdfunding-page/static/css/main.e89a5ae0.chunk.css",
+    "main.css": "/crowdfunding-page/static/css/main.813a5d64.chunk.css",
     "main.js": "/crowdfunding-page/static/js/main.66507ce7.chunk.js",
     "main.js.map": "/crowdfunding-page/static/js/main.66507ce7.chunk.js.map",
     "runtime~main.js": "/crowdfunding-page/static/js/runtime~main.be587ced.js",
@@ -10,10 +10,10 @@
     "static/js/3.0711f24a.chunk.js": "/crowdfunding-page/static/js/3.0711f24a.chunk.js",
     "static/js/3.0711f24a.chunk.js.map": "/crowdfunding-page/static/js/3.0711f24a.chunk.js.map",
     "index.html": "/crowdfunding-page/index.html",
-    "precache-manifest.00c3abcdd44d626a6707ebada54c8407.js": "/crowdfunding-page/precache-manifest.00c3abcdd44d626a6707ebada54c8407.js",
+    "precache-manifest.6959f42275aa4f38a688615370a8cc3a.js": "/crowdfunding-page/precache-manifest.6959f42275aa4f38a688615370a8cc3a.js",
     "service-worker.js": "/crowdfunding-page/service-worker.js",
-    "static/css/main.e89a5ae0.chunk.css.map": "/crowdfunding-page/static/css/main.e89a5ae0.chunk.css.map",
-    "static/media/Header.module.css": "/crowdfunding-page/static/media/icon-close-menu.7b0ab1a3.svg",
+    "static/css/main.813a5d64.chunk.css.map": "/crowdfunding-page/static/css/main.813a5d64.chunk.css.map",
+    "static/media/Header.module.css": "/crowdfunding-page/static/media/icon-hamburger.f8b2673b.svg",
     "static/media/index.css": "/crowdfunding-page/static/media/image-hero-mobile.0ca19c3b.jpg"
   }
 }
