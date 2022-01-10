@@ -1,4 +1,5 @@
 import classes from './NavlistMobile.module.css';
+import React from 'react';
 
 // This component contains the mobile navbar 
 

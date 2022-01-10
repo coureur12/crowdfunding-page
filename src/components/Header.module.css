@@ -62,7 +62,7 @@
   .hambugerContainer input {
     -webkit-appearance: none;
     background-color: transparent;
-    background-image: url("C:/Users/kacem/crowdfunding-page/public/icon-hamburger.svg");
+    background-image: url("C:/Users/kacem/crowdfunding-page/src/icon-close-menu.svg");
     border: none;
     width: 16px;
     height: 15px;
@@ -71,7 +71,7 @@
   .hambugerContainer input:checked {
     position: relative;
     z-index: 2;
-    background-image: url("C:/Users/kacem/crowdfunding-page/public/icon-close-menu.svg");
+    background-image: url("C:/Users/kacem/crowdfunding-page/src/icon-close-menu.svg");
     background-repeat: no-repeat;
     width: 16px;
     height: 15px;

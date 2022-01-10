@@ -83,6 +83,7 @@ input[type=number]::after {
 }
 
 label::after {
+  /* ::after create a div this might be very interessant to understand mainly for animation and to step the css skills */
   content: " " attr(data-domain);
   position: relative;
   float: left;

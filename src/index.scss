@@ -7,7 +7,7 @@ body{
     font-weight: normal;
     line-height: 30px;
     margin: 0px;
-    background-image: url('C:/Users/kacem/crowdfunding-page/public/image-hero-desktop.jpg');
+    background-image: url('C:/Users/kacem/crowdfunding-page/src/image-hero-desktop.jpg');
     background-repeat: no-repeat;
     background-size: 100% 400px;
     h1{
@@ -28,7 +28,7 @@ body{
 }
 @media screen and (max-width: 895px) {
     .body{
-        background-image: url("C:/Users/kacem/crowdfunding-page/public/image-hero-mobile.jpg");
+        background-image: url("C:/Users/kacem/crowdfunding-page/src/image-hero-mobile.jpg");
         background-size: 100% 300px;
     }
 }
