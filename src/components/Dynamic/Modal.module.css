@@ -1,0 +1,49 @@
+.modalComponent {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  background-color: white;
+  width: 52%;
+  border: 1px solid rgba(0, 0, 0, 0.0497193);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  padding: 48px;
+}
+
+.modalComponent h1 {
+  color: black;
+}
+
+.cross {
+  float: right;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: none;
+}
+
+.text {
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 895px) {
+  .modalComponent {
+    width: 87.2%;
+    padding: 24px;
+  }
+  .cross {
+    position: relative;
+    top: 20px;
+  }
+  .Title {
+    text-align: left;
+  }
+  .text {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=Modal.module.css.map */

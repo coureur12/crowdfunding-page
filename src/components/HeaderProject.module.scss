@@ -1,0 +1,78 @@
+.mainContainer{
+    width: 52%;
+    border: 1px solid rgba(0, 0, 0, 0.0497193);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 48px 48px 48px;
+    overflow: visible;
+}
+.logoContainer{
+    position: relative;
+    top: -30px;
+}
+
+.saveBtn{ 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.book{
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 56px;
+    background-color: rgba(203, 203, 203, 1);
+    border-radius: 33.5px;  
+}
+.btnText{
+    font-family: 'Commissioner';
+    font-weight: bold;
+    color:  #7A7A7A;
+    padding-left: 16px;
+}
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textContainer{
+    padding-bottom: 32px;
+    h1{
+        color: black;
+    }
+}
+.converterBtn{
+    background-color: #3CB3AB;
+    border-radius: 33.5px;
+    border: none;
+    padding: 19px 40px 19px 40px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.converterBtn:active{
+    background-color: #147A73;
+}
+@media screen and (max-width: 895px) {
+    .mainContainer{
+        width: 87.2%;
+        text-align: center;
+    }
+    .converterBtn{
+        width: 214px;
+    }
+    .btnContainer{
+        position: relative;
+        left: -30px;
+        width: min-content;
+        justify-content: flex-start;
+    }
+}

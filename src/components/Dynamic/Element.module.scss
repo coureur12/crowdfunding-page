@@ -1,0 +1,115 @@
+.elementContainer{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    width: 100%;
+    font-size: clamp(14px,1.1vw,16px);
+}
+
+.elementFlexContainer{
+    display: flex;
+    padding: 32px 28px 32px 28px;
+}
+.checkboxContainer{
+    padding-right: 24px;
+}
+.checkBox{
+    -webkit-appearance: none;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+	border-radius: 50px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	position: relative;
+}
+.checkBox:checked::after{
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: rgba(60, 179, 171, 1);
+}
+.checkBox:checked{
+    background-color: white;
+}
+.title{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px ;
+    p{
+        color: rgba(60, 179, 171, 1);
+        font-weight: bold;
+        padding-left: 20px ;
+    }
+}
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 17px;
+}
+.quantiyContainer{
+    display: flex;
+    align-items: center;
+    p{
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        padding-right: 8px;
+    }
+}
+.quantiyContainerMobile{
+    display: none;
+}
+@media screen and (max-width: 895px) {
+    .elementFlexContainer{
+        flex-direction: column ;
+        font-size: clamp(14px,0.8vw,16px);
+    }
+    .textContainer{
+        width: 100%;
+    }
+    .quantiyContainerMobile{
+        display: flex;
+        align-items: center;
+        p{
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            padding-right: 8px;
+        }
+    }
+    .quantiyContainer{
+    display: none;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 10%;
+        span{
+            font-size: 14px;
+            text-align: left;
+        }
+        p{
+            padding-left: 0px;
+        }
+    }
+    .checkboxContainer{
+        position: relative;
+        top: 40px;
+        height: min-content;
+    }
+    .Text{
+        width: 100%;
+        padding-bottom: 24px;
+    }
+}
+

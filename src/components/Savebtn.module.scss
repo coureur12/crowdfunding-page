@@ -1,0 +1,43 @@
+.saveBtn{ 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.book{
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 56px;
+    background-color: rgba(203, 203, 203, 1);
+    border-radius: 33.5px;  
+}
+.btnText{
+    font-family: 'Commissioner';
+    font-weight: bold;
+    padding-left: 16px;
+}
+.active{
+    display: flex;
+    align-items: center;
+    background-color: rgba(243, 248, 248, 1);
+    color: rgba(20, 122, 115, 1);
+    width: 174px;
+    height: 56px;
+    border-radius: 33.5px;  
+}
+.activeRound svg circle{
+    fill:rgba(20, 122, 115, 1);
+}
+.activeRound svg path{
+    fill: white;
+}
+
+@media screen and (max-width: 894px) {
+    .btnText{
+        display: none;
+    }
+    .book{
+        background-color: transparent;
+        width: 0px;
+    }
+  }

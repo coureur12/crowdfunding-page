@@ -1,0 +1,112 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.0497193);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.information {
+  color: #3CB3AB;
+}
+
+.titleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.textContainer {
+  width: 100%;
+}
+
+.text {
+  padding-bottom: 24px;
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonContainer .quantityContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonContainer .quantityContainer .quantity {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.buttonContainer .button {
+  background: #3CB3AB;
+  border-radius: 33.5px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  width: 157px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.buttonContainer .button:active {
+  background-color: #147A73;
+}
+
+@media screen and (max-width: 895px) {
+  .titleContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-bottom: 24px;
+  }
+  .titleContainer h3 {
+    margin: 0;
+  }
+  .buttonContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .buttonContainer .quantityContainer {
+    padding-bottom: 24px;
+  }
+}
+/*# sourceMappingURL=Panel.module.css.map */
