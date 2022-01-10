@@ -1,4 +1,5 @@
 import classes from './Record.module.css';
+import React from 'react';
 
 function Record(props){
     return(

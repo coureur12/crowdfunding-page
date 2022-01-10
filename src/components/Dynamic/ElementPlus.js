@@ -1,7 +1,7 @@
 import classes from "./ElementPlus.module.css";
 import EndMessage from "./EndMessage";
 import Backdrop from "./Backdrop";
-import { useState } from 'react';
+import React,{ useState } from 'react';
 
 // This component display the form with the price input and continue button  
 

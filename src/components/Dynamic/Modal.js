@@ -1,6 +1,6 @@
 import classes from "./Modal.module.css";
 import Element from "./Element";
-import { useEffect } from 'react';
+import React,{ useEffect } from 'react';
 
 function Modal (props){
     useEffect(() => {

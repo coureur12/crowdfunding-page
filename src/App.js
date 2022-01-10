@@ -3,7 +3,7 @@ import About from './components/About.js';
 import HeaderProject from './components/HeaderProject';
 import Record from './components/Record';
 import Layout from './components/Layout';
-import EndMessage from './components/Dynamic/EndMessage';
+import React from 'react';
 
 function App() {
 

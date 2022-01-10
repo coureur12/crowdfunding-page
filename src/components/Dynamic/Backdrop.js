@@ -1,4 +1,5 @@
-import classes from "./Backdrop.module.css"
+import classes from "./Backdrop.module.css";
+import React from 'react';
 
 // This component display the light black background
 

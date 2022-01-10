@@ -1,5 +1,6 @@
 import classes from './About.module.css';
 import Panel from './Panel';
+import React from 'react';
 
 
 function About(){

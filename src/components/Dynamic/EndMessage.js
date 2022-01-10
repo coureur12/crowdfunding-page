@@ -1,5 +1,5 @@
+import React, { useEffect }  from 'react';
 import classes from './EndMessage.module.css';
-import { useEffect } from 'react';
 
 // This component contains the submit button after the click it's refresh the page 
 

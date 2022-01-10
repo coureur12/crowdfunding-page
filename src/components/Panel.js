@@ -1,7 +1,7 @@
 import classes from './Panel.module.css';
 import Modal from './Dynamic/Modal';
 import Backdrop from './Dynamic/Backdrop';
-import {useState } from 'react'; 
+import React,{useState } from 'react'; 
 
 
 
